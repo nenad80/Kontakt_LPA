@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.kontakt_lpa.MainActivity">
+<Spinner
+        android:id="@+id/izaberi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:entries="@array/opstina" />
+
+    <Button
+        android:id="@+id/nadji_adresu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="#BF1851"
+        android:onClick="nadjiKontakt"
+        android:text="Nadji kontakt" />
+
+    <TextView
+        android:id="@+id/adresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nije pronadjena nijedana LPA"/>
+
+    <TextView
+        android:id="@+id/telefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nema izabranog telefona"/>
+
+    <TextView
+        android:id="@+id/mejl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nema izabrane mejl adrese"/>
+
+    <Button
+        android:id="@+id/poziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:background="#125387"
+        android:onClick="PozivLPA"
+        android:text="Pozovi LPA" />
+
+
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:onClick="PosaljiEmail"
+        android:text="Pošalji email" android:background="#FFFFFF"/>
+
+
+</LinearLayout>

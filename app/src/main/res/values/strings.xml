@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kontakt_LPA</string>
+    <string name="nadji_kontakt">Nadji kontakt</string>
+    <string name="kontakt">Nije pronadjen nijedan kontakt</string>
+    <string name="PozivLPA">Pozovi LPA</string>
+    <string name="PosaljiEmail">Posalji email</string>
+    <string-array name="opstina">
+        <item>Barajevo</item>
+        <item>Voždovac</item>
+        <item>Vračar</item>
+        <item>Grocka</item>
+        <item>Zvezdara</item>
+        <item>Zemun</item>
+        <item>Lazarevac</item>
+        <item>Mladenovac</item>
+        <item>Novi Beograd</item>
+        <item>Obrenovac</item>
+        <item>Palilula</item>
+        <item>Rakovica</item>
+        <item>Savski venac</item>
+        <item>Sopot</item>
+        <item>Stari grad</item>
+        <item>Surčin</item>
+        <item>Čukarica</item>
+    </string-array>
+</resources>
